@@ -1,0 +1,46 @@
+.timer {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 50;
+  background-color: #424874;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  user-select: none;
+  width: 400px;
+  font-family: monospace;
+}
+.timer input {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  height: 50px;
+  text-align: center;
+  background-color: #a6b1e1;
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+}
+.timer button {
+  display: block;
+  background-color: #2192ff;
+  color: white;
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  margin: 10px auto;
+  font-size: 25px;
+}
+.timer p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .timer {
+    width: auto;
+    padding: 0px;
+    box-shadow: none;
+  }
+}

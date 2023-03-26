@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  /* background-color: #1b2430; */
+  background-color: #a6b1e1;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+h2 {
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  background-color: #424874;
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+  body {
+    background-color: #424874;
+  }
+}
